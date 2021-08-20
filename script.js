@@ -1,5 +1,9 @@
 // Script for the Mixed Messages project
 
+// function to return random index in length of array
+const randomIndex = arr => Math.floor(Math.random()*arr.length);
+
+// defining message parts
 const part1 = [
     'If you want,',
     'Something you should think about is',
