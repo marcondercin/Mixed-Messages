@@ -5,11 +5,11 @@ const randomIndex = arr => Math.floor(Math.random()*arr.length);
 
 // defining message parts
 const part1 = [
-    'If you want,',
+    'If you want',
     'Something you should think about is',
-    'Really all there is to life is chocolate,',
-    'All signs point to the road less travelled,',
-    'If you ever wanted to step up,'
+    'Really all there is to life is chocolate',
+    'All signs point to the road less travelled, so',
+    'If you ever wanted to step up'
 ];
 
 const part2 = [
@@ -21,10 +21,11 @@ const part2 = [
 ];
 
 const part3 = [
-    'on a boat.',
-    'in your home.',
-    'on top of a car.',
-    'inside the smallest box you can fit in.',
-    'next to a dog.'
+    'on a boat',
+    'in your home',
+    'on top of a car',
+    'inside the smallest box you can fit in',
+    'next to a dog'
 ];
 
+console.log(`${part1[randomIndex(part1)]}, ${part2[randomIndex(part2)]} ${part3[randomIndex(part3)]}.`);
