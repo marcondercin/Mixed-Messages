@@ -28,4 +28,5 @@ const part3 = [
     'next to a dog'
 ];
 
+// Put it together and print
 console.log(`${part1[randomIndex(part1)]}, ${part2[randomIndex(part2)]} ${part3[randomIndex(part3)]}.`);
